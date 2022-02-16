@@ -1,0 +1,2745 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/igor/Documents/hard_deploy/contracts/aggregator/AccessControlledOffchainAggregator.sol": {
+      "lastModificationDate": 1643544574023,
+      "contentHash": "35f093ec102cb54225b06f942fab9b24",
+      "sourceName": "contracts/aggregator/AccessControlledOffchainAggregator.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./OffchainAggregator.sol",
+        "./SimpleReadAccessController.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.1"
+      ],
+      "artifacts": [
+        "AccessControlledOffchainAggregator"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/contracts/aggregator/OffchainAggregator.sol": {
+      "lastModificationDate": 1643544574023,
+      "contentHash": "6adc77f3d93c57a76c7f96e5911fb0f7",
+      "sourceName": "contracts/aggregator/OffchainAggregator.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./AccessControllerInterface.sol",
+        "./AggregatorV2V3Interface.sol",
+        "./AggregatorValidatorInterface.sol",
+        "./LinkTokenInterface.sol",
+        "./Owned.sol",
+        "./OffchainAggregatorBilling.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "OffchainAggregator"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/contracts/aggregator/SimpleReadAccessController.sol": {
+      "lastModificationDate": 1643544574023,
+      "contentHash": "53b533a61f90adf673256ad41d76ad8b",
+      "sourceName": "contracts/aggregator/SimpleReadAccessController.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./SimpleWriteAccessController.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.1"
+      ],
+      "artifacts": [
+        "SimpleReadAccessController"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/contracts/aggregator/AccessControllerInterface.sol": {
+      "lastModificationDate": 1643544574023,
+      "contentHash": "a5ff3dc4b90fcc02ff8d6ef8341070f7",
+      "sourceName": "contracts/aggregator/AccessControllerInterface.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "AccessControllerInterface"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/contracts/aggregator/AggregatorV2V3Interface.sol": {
+      "lastModificationDate": 1643544574023,
+      "contentHash": "c9bdc786f9f3d92392db0b220d7f0e42",
+      "sourceName": "contracts/aggregator/AggregatorV2V3Interface.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./AggregatorInterface.sol",
+        "./AggregatorV3Interface.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "AggregatorV2V3Interface"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/contracts/aggregator/AggregatorValidatorInterface.sol": {
+      "lastModificationDate": 1643544574023,
+      "contentHash": "68f5827732263b40cbdf35f4d0a6b96e",
+      "sourceName": "contracts/aggregator/AggregatorValidatorInterface.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "AggregatorValidatorInterface"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/contracts/aggregator/LinkTokenInterface.sol": {
+      "lastModificationDate": 1643544574023,
+      "contentHash": "a8da5b83685648b849266c03681bc6a3",
+      "sourceName": "contracts/aggregator/LinkTokenInterface.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.1"
+      ],
+      "artifacts": [
+        "LinkTokenInterface"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/contracts/aggregator/Owned.sol": {
+      "lastModificationDate": 1643544574023,
+      "contentHash": "89759131fa77466fc80c206d5240bc88",
+      "sourceName": "contracts/aggregator/Owned.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "Owned"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/contracts/aggregator/OffchainAggregatorBilling.sol": {
+      "lastModificationDate": 1643544574023,
+      "contentHash": "216d9d9777a6ce80efe11ad0b0e6ae62",
+      "sourceName": "contracts/aggregator/OffchainAggregatorBilling.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./AccessControllerInterface.sol",
+        "./LinkTokenInterface.sol",
+        "./Owned.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "OffchainAggregatorBilling"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/contracts/aggregator/AggregatorInterface.sol": {
+      "lastModificationDate": 1643544574023,
+      "contentHash": "555223d2064790d135679a92d0b6dab2",
+      "sourceName": "contracts/aggregator/AggregatorInterface.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "AggregatorInterface"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/contracts/aggregator/AggregatorV3Interface.sol": {
+      "lastModificationDate": 1643544574023,
+      "contentHash": "e774eeca95dfc407d59f3e22efe80985",
+      "sourceName": "contracts/aggregator/AggregatorV3Interface.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "AggregatorV3Interface"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/contracts/aggregator/SimpleWriteAccessController.sol": {
+      "lastModificationDate": 1643544574023,
+      "contentHash": "c53df7ef055ff6bd21b9e7249647f166",
+      "sourceName": "contracts/aggregator/SimpleWriteAccessController.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Owned.sol",
+        "./AccessControllerInterface.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "SimpleWriteAccessController"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/contracts/aggregatorEthUsd/AccessControlledOffchainAggregator.sol": {
+      "lastModificationDate": 1643617968558,
+      "contentHash": "791ec6543ba1efdfed9c53e0f2dc52a5",
+      "sourceName": "contracts/aggregatorEthUsd/AccessControlledOffchainAggregator.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./OffchainAggregator.sol",
+        "./SimpleReadAccessController.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.1"
+      ],
+      "artifacts": [
+        "AccessControlledOffchainAggregator"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/contracts/aggregatorEthUsd/OffchainAggregator.sol": {
+      "lastModificationDate": 1643617977453,
+      "contentHash": "66956126ae5fb4cc53599740b2b97b7d",
+      "sourceName": "contracts/aggregatorEthUsd/OffchainAggregator.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./AccessControllerInterface.sol",
+        "./AggregatorV2V3Interface.sol",
+        "./AggregatorValidatorInterface.sol",
+        "./LinkTokenInterface.sol",
+        "./Owned.sol",
+        "./OffchainAggregatorBilling.sol",
+        "./TypeAndVersionInterface.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "OffchainAggregator"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/contracts/aggregatorEthUsd/SimpleReadAccessController.sol": {
+      "lastModificationDate": 1643617993515,
+      "contentHash": "66ed3e1f8a1ac18a5221481b2a68022e",
+      "sourceName": "contracts/aggregatorEthUsd/SimpleReadAccessController.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./SimpleWriteAccessController.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.1"
+      ],
+      "artifacts": [
+        "SimpleReadAccessController"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/contracts/aggregatorEthUsd/AccessControllerInterface.sol": {
+      "lastModificationDate": 1643618009168,
+      "contentHash": "68a1e77ccd8fe1ea69e842a87b79cb99",
+      "sourceName": "contracts/aggregatorEthUsd/AccessControllerInterface.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "AccessControllerInterface"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/contracts/aggregatorEthUsd/AggregatorV2V3Interface.sol": {
+      "lastModificationDate": 1643618019477,
+      "contentHash": "c9bdc786f9f3d92392db0b220d7f0e42",
+      "sourceName": "contracts/aggregatorEthUsd/AggregatorV2V3Interface.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./AggregatorInterface.sol",
+        "./AggregatorV3Interface.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "AggregatorV2V3Interface"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/contracts/aggregatorEthUsd/AggregatorValidatorInterface.sol": {
+      "lastModificationDate": 1643618040172,
+      "contentHash": "15a13ec2d669980cf8640b814c83ab4c",
+      "sourceName": "contracts/aggregatorEthUsd/AggregatorValidatorInterface.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "AggregatorValidatorInterface"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/contracts/aggregatorEthUsd/LinkTokenInterface.sol": {
+      "lastModificationDate": 1643618059737,
+      "contentHash": "70a10aaf600339b5e09aeb699a788f4d",
+      "sourceName": "contracts/aggregatorEthUsd/LinkTokenInterface.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.1"
+      ],
+      "artifacts": [
+        "LinkTokenInterface"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/contracts/aggregatorEthUsd/Owned.sol": {
+      "lastModificationDate": 1643618081311,
+      "contentHash": "14ef9bcb217f3c033bbb6e5d504ab431",
+      "sourceName": "contracts/aggregatorEthUsd/Owned.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "Owned"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/contracts/aggregatorEthUsd/OffchainAggregatorBilling.sol": {
+      "lastModificationDate": 1643618095588,
+      "contentHash": "b483e83cdf616c4b7841b0ad18919f47",
+      "sourceName": "contracts/aggregatorEthUsd/OffchainAggregatorBilling.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./AccessControllerInterface.sol",
+        "./LinkTokenInterface.sol",
+        "./Owned.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "OffchainAggregatorBilling"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/contracts/aggregatorEthUsd/TypeAndVersionInterface.sol": {
+      "lastModificationDate": 1643618103258,
+      "contentHash": "462208d2731ef2d913bb85733de208f8",
+      "sourceName": "contracts/aggregatorEthUsd/TypeAndVersionInterface.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "TypeAndVersionInterface"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/contracts/aggregatorEthUsd/AggregatorInterface.sol": {
+      "lastModificationDate": 1643618115328,
+      "contentHash": "500b4121a00e1bd301036feb0889d61d",
+      "sourceName": "contracts/aggregatorEthUsd/AggregatorInterface.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "AggregatorInterface"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/contracts/aggregatorEthUsd/AggregatorV3Interface.sol": {
+      "lastModificationDate": 1643618125554,
+      "contentHash": "dbbaedba92c2ec144fe4f0541a60481c",
+      "sourceName": "contracts/aggregatorEthUsd/AggregatorV3Interface.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "AggregatorV3Interface"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/contracts/aggregatorEthUsd/SimpleWriteAccessController.sol": {
+      "lastModificationDate": 1643618138646,
+      "contentHash": "44b663d8deef220283320a9773dcc1c8",
+      "sourceName": "contracts/aggregatorEthUsd/SimpleWriteAccessController.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Owned.sol",
+        "./AccessControllerInterface.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "SimpleWriteAccessController"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/contracts/aggregatorEthUsd/TestOffchainAggregator.sol": {
+      "lastModificationDate": 1643618148554,
+      "contentHash": "3a86f4f75e2a972fac218a72550ddc14",
+      "sourceName": "contracts/aggregatorEthUsd/TestOffchainAggregator.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./AccessControlledOffchainAggregator.sol",
+        "./AccessControlTestHelper.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "TestOffchainAggregator"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/contracts/aggregatorEthUsd/AccessControlTestHelper.sol": {
+      "lastModificationDate": 1643618160763,
+      "contentHash": "199e9c8a89b4ba67752f45275572befe",
+      "sourceName": "contracts/aggregatorEthUsd/AccessControlTestHelper.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./AccessControlledOffchainAggregator.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.1"
+      ],
+      "artifacts": [
+        "AccessControlTestHelper"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/contracts/aggregatorEthUsd/ExposedOffchainAggregator.sol": {
+      "lastModificationDate": 1643618176943,
+      "contentHash": "42f47bfb100bf01eeb43fa4a8f62f537",
+      "sourceName": "contracts/aggregatorEthUsd/ExposedOffchainAggregator.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./OffchainAggregator.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "ExposedOffchainAggregator"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/contracts/aggregatorEthUsd/TestValidator.sol": {
+      "lastModificationDate": 1643618322409,
+      "contentHash": "22b35acead5c31997cbfa0ec4d69c14d",
+      "sourceName": "contracts/aggregatorEthUsd/TestValidator.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./AggregatorValidatorInterface.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "TestValidator"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/contracts/chainLink/EACAggregatorProxy.sol": {
+      "lastModificationDate": 1643618666570,
+      "contentHash": "ea9a238ba4e41935dd710f89b439c9e4",
+      "sourceName": "contracts/chainLink/EACAggregatorProxy.sol",
+      "solcConfig": {
+        "version": "0.6.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.6"
+      ],
+      "artifacts": [
+        "AccessControllerInterface",
+        "AggregatorInterface",
+        "AggregatorProxy",
+        "AggregatorV2V3Interface",
+        "AggregatorV3Interface",
+        "EACAggregatorProxy",
+        "Owned"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/contracts/tokens/LinkToken/LinkToken.sol": {
+      "lastModificationDate": 1643715455222,
+      "contentHash": "62e1ae4b2287fd5afbecb5aec8ea1000",
+      "sourceName": "contracts/tokens/LinkToken/LinkToken.sol",
+      "solcConfig": {
+        "version": "0.4.24",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@chainlink/contracts/src/v0.4/ERC677Token.sol",
+        "@chainlink/contracts/src/v0.4/vendor/StandardToken.sol"
+      ],
+      "versionPragmas": [
+        "^0.4.16"
+      ],
+      "artifacts": [
+        "LinkToken"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/contracts/tokens/MANAToken/MANAToken.sol": {
+      "lastModificationDate": 1643710442985,
+      "contentHash": "05c8657ef07357e8e5cfd52339dcce83",
+      "sourceName": "contracts/tokens/MANAToken/MANAToken.sol",
+      "solcConfig": {
+        "version": "0.4.24",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.4.11"
+      ],
+      "artifacts": [
+        "BasicToken",
+        "BurnableToken",
+        "ERC20",
+        "ERC20Basic",
+        "MANAToken",
+        "MintableToken",
+        "Ownable",
+        "Pausable",
+        "PausableToken",
+        "SafeMath",
+        "StandardToken"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/contracts/tokenDistributor/InitializableAdminUpgradeabilityProxy.sol": {
+      "lastModificationDate": 1643712521674,
+      "contentHash": "c96e9d0cafc85bbd7532529e92a13937",
+      "sourceName": "contracts/tokenDistributor/InitializableAdminUpgradeabilityProxy.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.5.0"
+      ],
+      "artifacts": [
+        "AToken",
+        "Address",
+        "AddressStorage",
+        "AdminUpgradeabilityProxy",
+        "BaseAdminUpgradeabilityProxy",
+        "BaseUpgradeabilityProxy",
+        "CoreLibrary",
+        "ERC20",
+        "ERC20Detailed",
+        "EthAddressLib",
+        "IERC20",
+        "IFeeProvider",
+        "IFlashLoanReceiver",
+        "ILendingPoolAddressesProvider",
+        "ILendingRateOracle",
+        "IPriceOracleGetter",
+        "IReserveInterestRateStrategy",
+        "InitializableAdminUpgradeabilityProxy",
+        "InitializableUpgradeabilityProxy",
+        "LendingPool",
+        "LendingPoolAddressesProvider",
+        "LendingPoolCore",
+        "LendingPoolDataProvider",
+        "LendingPoolLiquidationManager",
+        "LendingPoolParametersProvider",
+        "Ownable",
+        "Proxy",
+        "ReentrancyGuard",
+        "SafeERC20",
+        "SafeMath",
+        "UintStorage",
+        "UpgradeabilityProxy",
+        "VersionedInitializable",
+        "WadRayMath"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/contracts/tokens/YFI/YFI.sol": {
+      "lastModificationDate": 1643710442978,
+      "contentHash": "ca9036e08a117ceb5d1bae7ebe01bd4a",
+      "sourceName": "contracts/tokens/YFI/YFI.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "Address",
+        "Context",
+        "ERC20",
+        "ERC20Detailed",
+        "IERC20",
+        "SafeERC20",
+        "SafeMath",
+        "YFI"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/contracts/billingAccess/SimpleWriteAccessController.sol": {
+      "lastModificationDate": 1643709433687,
+      "contentHash": "3e2c0f5a5c5d58617e8c49657cb8b8a9",
+      "sourceName": "contracts/billingAccess/SimpleWriteAccessController.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "AccessControllerInterface",
+        "Owned",
+        "SimpleWriteAccessController"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/contracts/requesterAccess/SimpleWriteAccessController.sol": {
+      "lastModificationDate": 1643709481956,
+      "contentHash": "58a4759ff7c8f4b27100ea419d14e91e",
+      "sourceName": "contracts/requesterAccess/SimpleWriteAccessController.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "AccessControllerInterface",
+        "Owned",
+        "SimpleWriteAccessController"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/contracts/ReserveFactorTreasuryAddress/InitializableAdminUpgradeabilityProxy.sol": {
+      "lastModificationDate": 1643711550994,
+      "contentHash": "4d606c8be8899e0452b94e49013c685f",
+      "sourceName": "contracts/ReserveFactorTreasuryAddress/InitializableAdminUpgradeabilityProxy.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.8"
+      ],
+      "artifacts": [
+        "Address",
+        "BaseAdminUpgradeabilityProxy",
+        "BaseUpgradeabilityProxy",
+        "InitializableAdminUpgradeabilityProxy",
+        "InitializableUpgradeabilityProxy",
+        "Proxy"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/node_modules/@chainlink/token/contracts/v0.4/LinkToken.sol": {
+      "lastModificationDate": 1643714709802,
+      "contentHash": "7d509786a0abb489f85db8146edeed49",
+      "sourceName": "@chainlink/token/contracts/v0.4/LinkToken.sol",
+      "solcConfig": {
+        "version": "0.4.24",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ERC677Token.sol",
+        "./token/linkStandardToken.sol"
+      ],
+      "versionPragmas": [
+        "^0.4.11"
+      ],
+      "artifacts": [
+        "LinkToken"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/node_modules/@chainlink/token/contracts/v0.4/ERC677Token.sol": {
+      "lastModificationDate": 1643714709784,
+      "contentHash": "4bfbfa8063c6dbfb6c487ec86a804f29",
+      "sourceName": "@chainlink/token/contracts/v0.4/ERC677Token.sol",
+      "solcConfig": {
+        "version": "0.4.24",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./token/ERC677.sol",
+        "./token/ERC677Receiver.sol"
+      ],
+      "versionPragmas": [
+        "^0.4.11"
+      ],
+      "artifacts": [
+        "ERC677Token"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/node_modules/@chainlink/token/contracts/v0.4/token/linkStandardToken.sol": {
+      "lastModificationDate": 1643714711101,
+      "contentHash": "4e23e118306bdf7f429263fcb9b4bab1",
+      "sourceName": "@chainlink/token/contracts/v0.4/token/linkStandardToken.sol",
+      "solcConfig": {
+        "version": "0.4.24",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./linkBasicToken.sol",
+        "./linkERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.4.11"
+      ],
+      "artifacts": [
+        "linkStandardToken"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/node_modules/@chainlink/token/contracts/v0.4/token/ERC677.sol": {
+      "lastModificationDate": 1643714711101,
+      "contentHash": "23718b0ea467e015dee4587195b0bbf8",
+      "sourceName": "@chainlink/token/contracts/v0.4/token/ERC677.sol",
+      "solcConfig": {
+        "version": "0.4.24",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./linkERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.4.8"
+      ],
+      "artifacts": [
+        "ERC677"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/node_modules/@chainlink/token/contracts/v0.4/token/ERC677Receiver.sol": {
+      "lastModificationDate": 1643714711101,
+      "contentHash": "59f6b5d24479f462b1376ba5a96edf2a",
+      "sourceName": "@chainlink/token/contracts/v0.4/token/ERC677Receiver.sol",
+      "solcConfig": {
+        "version": "0.4.24",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.4.8"
+      ],
+      "artifacts": [
+        "ERC677Receiver"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/node_modules/@chainlink/token/contracts/v0.4/token/linkERC20.sol": {
+      "lastModificationDate": 1643714711101,
+      "contentHash": "e6767851ef5f0bf5be54c597e158007f",
+      "sourceName": "@chainlink/token/contracts/v0.4/token/linkERC20.sol",
+      "solcConfig": {
+        "version": "0.4.24",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./linkERC20Basic.sol"
+      ],
+      "versionPragmas": [
+        "^0.4.11"
+      ],
+      "artifacts": [
+        "linkERC20"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/node_modules/@chainlink/token/contracts/v0.4/token/linkERC20Basic.sol": {
+      "lastModificationDate": 1643714711131,
+      "contentHash": "e32fd686354a0d118bf6aa1ed393ceda",
+      "sourceName": "@chainlink/token/contracts/v0.4/token/linkERC20Basic.sol",
+      "solcConfig": {
+        "version": "0.4.24",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.4.11"
+      ],
+      "artifacts": [
+        "linkERC20Basic"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/node_modules/@chainlink/token/contracts/v0.4/token/linkBasicToken.sol": {
+      "lastModificationDate": 1643714711101,
+      "contentHash": "ed5d0de93475cad4121fc86d93372f27",
+      "sourceName": "@chainlink/token/contracts/v0.4/token/linkBasicToken.sol",
+      "solcConfig": {
+        "version": "0.4.24",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./linkERC20Basic.sol",
+        "../math/linkSafeMath.sol"
+      ],
+      "versionPragmas": [
+        "^0.4.11"
+      ],
+      "artifacts": [
+        "linkBasicToken"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/node_modules/@chainlink/token/contracts/v0.4/math/linkSafeMath.sol": {
+      "lastModificationDate": 1643714711132,
+      "contentHash": "ca423d75c4a4ac1d0c6f64e18170084b",
+      "sourceName": "@chainlink/token/contracts/v0.4/math/linkSafeMath.sol",
+      "solcConfig": {
+        "version": "0.4.24",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.4.11"
+      ],
+      "artifacts": [
+        "linkSafeMath"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/node_modules/@chainlink/contracts/src/v0.4/ERC677Token.sol": {
+      "lastModificationDate": 1643714573757,
+      "contentHash": "45b8db7fb2ef3b6c7dd95365ea22d0ff",
+      "sourceName": "@chainlink/contracts/src/v0.4/ERC677Token.sol",
+      "solcConfig": {
+        "version": "0.4.24",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/ERC677.sol",
+        "./interfaces/ERC677Receiver.sol"
+      ],
+      "versionPragmas": [
+        "^0.4.11"
+      ],
+      "artifacts": [
+        "ERC677Token"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/node_modules/@chainlink/contracts/src/v0.4/vendor/StandardToken.sol": {
+      "lastModificationDate": 1643714574487,
+      "contentHash": "9e6703cae7b44c16c228e0025c159bdb",
+      "sourceName": "@chainlink/contracts/src/v0.4/vendor/StandardToken.sol",
+      "solcConfig": {
+        "version": "0.4.24",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./BasicToken.sol",
+        "../interfaces/ERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.4.11"
+      ],
+      "artifacts": [
+        "StandardToken"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/node_modules/@chainlink/contracts/src/v0.4/interfaces/ERC677.sol": {
+      "lastModificationDate": 1643714574486,
+      "contentHash": "05de760f44a7c34c788f89571bbb77ee",
+      "sourceName": "@chainlink/contracts/src/v0.4/interfaces/ERC677.sol",
+      "solcConfig": {
+        "version": "0.4.24",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.4.8"
+      ],
+      "artifacts": [
+        "ERC677"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/node_modules/@chainlink/contracts/src/v0.4/interfaces/ERC677Receiver.sol": {
+      "lastModificationDate": 1643714574486,
+      "contentHash": "59f6b5d24479f462b1376ba5a96edf2a",
+      "sourceName": "@chainlink/contracts/src/v0.4/interfaces/ERC677Receiver.sol",
+      "solcConfig": {
+        "version": "0.4.24",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.4.8"
+      ],
+      "artifacts": [
+        "ERC677Receiver"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/node_modules/@chainlink/contracts/src/v0.4/interfaces/ERC20.sol": {
+      "lastModificationDate": 1643714574485,
+      "contentHash": "06a6781f289c4039aa25b91d52799fc2",
+      "sourceName": "@chainlink/contracts/src/v0.4/interfaces/ERC20.sol",
+      "solcConfig": {
+        "version": "0.4.24",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ERC20Basic.sol"
+      ],
+      "versionPragmas": [
+        "^0.4.11"
+      ],
+      "artifacts": [
+        "ERC20"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/node_modules/@chainlink/contracts/src/v0.4/interfaces/ERC20Basic.sol": {
+      "lastModificationDate": 1643714574485,
+      "contentHash": "c669adeb22611a05d90e6444dcb431e6",
+      "sourceName": "@chainlink/contracts/src/v0.4/interfaces/ERC20Basic.sol",
+      "solcConfig": {
+        "version": "0.4.24",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.4.11"
+      ],
+      "artifacts": [
+        "ERC20Basic"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/node_modules/@chainlink/contracts/src/v0.4/vendor/BasicToken.sol": {
+      "lastModificationDate": 1643714574506,
+      "contentHash": "00797d6f33d74331d3436d8dc0cf0c65",
+      "sourceName": "@chainlink/contracts/src/v0.4/vendor/BasicToken.sol",
+      "solcConfig": {
+        "version": "0.4.24",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/ERC20Basic.sol",
+        "./SafeMathChainlink.sol"
+      ],
+      "versionPragmas": [
+        "^0.4.24"
+      ],
+      "artifacts": [
+        "BasicToken"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/node_modules/@chainlink/contracts/src/v0.4/vendor/SafeMathChainlink.sol": {
+      "lastModificationDate": 1643714574487,
+      "contentHash": "25526c623f7624993554d443f0f25549",
+      "sourceName": "@chainlink/contracts/src/v0.4/vendor/SafeMathChainlink.sol",
+      "solcConfig": {
+        "version": "0.4.24",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.4.11"
+      ],
+      "artifacts": [
+        "SafeMathChainlink"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/contracts/fallback/AaveFallbackOracle.sol": {
+      "lastModificationDate": 1643805759555,
+      "contentHash": "459736c76992b5dcd753a5a31088d69d",
+      "sourceName": "contracts/fallback/AaveFallbackOracle.sol",
+      "solcConfig": {
+        "version": "0.7.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.7.4"
+      ],
+      "artifacts": [
+        "AaveFallbackOracle",
+        "IPriceOracleGetter",
+        "SafeMath"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/contracts/AaveToken/AaveToken.sol": {
+      "lastModificationDate": 1643886316460,
+      "contentHash": "91261522383b4887916c51c2185befc7",
+      "sourceName": "contracts/AaveToken/AaveToken.sol",
+      "solcConfig": {
+        "version": "0.6.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ERC20.sol",
+        "./ITransferHook.sol",
+        "./VersionedInitializable.sol"
+      ],
+      "versionPragmas": [
+        "0.6.10"
+      ],
+      "artifacts": [
+        "AaveToken"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/contracts/AaveToken/ERC20.sol": {
+      "lastModificationDate": 1643886224716,
+      "contentHash": "8b02c25492c1db4a83fc6952e29eda00",
+      "sourceName": "contracts/AaveToken/ERC20.sol",
+      "solcConfig": {
+        "version": "0.6.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Context.sol",
+        "./IERC20.sol",
+        "./SafeMath.sol",
+        "./Address.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "ERC20"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/contracts/AaveToken/ITransferHook.sol": {
+      "lastModificationDate": 1643885500562,
+      "contentHash": "0581f1f24e4dc526a7a8953c296919ec",
+      "sourceName": "contracts/AaveToken/ITransferHook.sol",
+      "solcConfig": {
+        "version": "0.6.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.10"
+      ],
+      "artifacts": [
+        "ITransferHook"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/contracts/AaveToken/VersionedInitializable.sol": {
+      "lastModificationDate": 1643886052082,
+      "contentHash": "5935c0e56f34f7ee903bdf30467fa33c",
+      "sourceName": "contracts/AaveToken/VersionedInitializable.sol",
+      "solcConfig": {
+        "version": "0.6.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.10"
+      ],
+      "artifacts": [
+        "VersionedInitializable"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/contracts/AaveToken/IERC20.sol": {
+      "lastModificationDate": 1643885385209,
+      "contentHash": "b84e0e3016b90107de0d512d0914f117",
+      "sourceName": "contracts/AaveToken/IERC20.sol",
+      "solcConfig": {
+        "version": "0.6.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.10"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/contracts/AaveToken/LendToAaveMigrator.sol": {
+      "lastModificationDate": 1643886190996,
+      "contentHash": "5e9cb223b53e00be16c43b8d94a0c0d4",
+      "sourceName": "contracts/AaveToken/LendToAaveMigrator.sol",
+      "solcConfig": {
+        "version": "0.6.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC20.sol",
+        "./SafeMath.sol",
+        "./VersionedInitializable.sol"
+      ],
+      "versionPragmas": [
+        "0.6.10"
+      ],
+      "artifacts": [
+        "LendToAaveMigrator"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/contracts/AaveToken/MintableErc20.sol": {
+      "lastModificationDate": 1643886190938,
+      "contentHash": "b9dae9487e45788a4738affd2a3c945d",
+      "sourceName": "contracts/AaveToken/MintableErc20.sol",
+      "solcConfig": {
+        "version": "0.6.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ERC20.sol"
+      ],
+      "versionPragmas": [
+        "0.6.10"
+      ],
+      "artifacts": [
+        "MintableErc20"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/contracts/AaveToken/IERC20Detailed.sol": {
+      "lastModificationDate": 1643886224704,
+      "contentHash": "ef522456a57718fd7810bd5625c95eda",
+      "sourceName": "contracts/AaveToken/IERC20Detailed.sol",
+      "solcConfig": {
+        "version": "0.6.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC20.sol"
+      ],
+      "versionPragmas": [
+        "0.6.10"
+      ],
+      "artifacts": [
+        "IERC20Detailed"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/contracts/AaveToken/DoubleTransferHelper.sol": {
+      "lastModificationDate": 1643886247015,
+      "contentHash": "d9aa25beb5a6bb1c77b70ae10e100fb1",
+      "sourceName": "contracts/AaveToken/DoubleTransferHelper.sol",
+      "solcConfig": {
+        "version": "0.6.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC20.sol"
+      ],
+      "versionPragmas": [
+        "0.6.10"
+      ],
+      "artifacts": [
+        "DoubleTransferHelper"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/contracts/AaveToken/MockTransferHook.sol": {
+      "lastModificationDate": 1643886190983,
+      "contentHash": "87bd6b0b1b7b17a0805593e908f66f94",
+      "sourceName": "contracts/AaveToken/MockTransferHook.sol",
+      "solcConfig": {
+        "version": "0.6.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ITransferHook.sol"
+      ],
+      "versionPragmas": [
+        "0.6.10"
+      ],
+      "artifacts": [
+        "MockTransferHook"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/contracts/AaveToken/SafeMath.sol": {
+      "lastModificationDate": 1643885607229,
+      "contentHash": "4ff88e0fe7d4ff7f1f3e2638da22d096",
+      "sourceName": "contracts/AaveToken/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/contracts/AaveToken/Address.sol": {
+      "lastModificationDate": 1643885517411,
+      "contentHash": "3fe6a6208c23208681a1cc53e11258db",
+      "sourceName": "contracts/AaveToken/Address.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.2"
+      ],
+      "artifacts": [
+        "Address"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/contracts/AaveToken/BaseUpgradeabilityProxy.sol": {
+      "lastModificationDate": 1643885565280,
+      "contentHash": "4ad367ece6fb8be07282b1efac455913",
+      "sourceName": "contracts/AaveToken/BaseUpgradeabilityProxy.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Proxy.sol",
+        "./Address.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "BaseUpgradeabilityProxy"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/contracts/AaveToken/Proxy.sol": {
+      "lastModificationDate": 1643885574400,
+      "contentHash": "730da274176262c11e9b5ee2e21a48d3",
+      "sourceName": "contracts/AaveToken/Proxy.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "Proxy"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/contracts/AaveToken/InitializableUpgradeabilityProxy.sol": {
+      "lastModificationDate": 1643885631778,
+      "contentHash": "2f770bbd82f021a67b7f16c364d06bc8",
+      "sourceName": "contracts/AaveToken/InitializableUpgradeabilityProxy.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./BaseUpgradeabilityProxy.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.10"
+      ],
+      "artifacts": [
+        "InitializableUpgradeabilityProxy"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/contracts/AaveToken/InitializableAdminUpgradeabilityProxy.sol": {
+      "lastModificationDate": 1643885618247,
+      "contentHash": "a7f56829e72f8c9726a5bc004297ce76",
+      "sourceName": "contracts/AaveToken/InitializableAdminUpgradeabilityProxy.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./BaseAdminUpgradeabilityProxy.sol",
+        "./InitializableUpgradeabilityProxy.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.10"
+      ],
+      "artifacts": [
+        "InitializableAdminUpgradeabilityProxy"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/contracts/AaveToken/BaseAdminUpgradeabilityProxy.sol": {
+      "lastModificationDate": 1643885528822,
+      "contentHash": "bdb7486a09032fb6b917107331289360",
+      "sourceName": "contracts/AaveToken/BaseAdminUpgradeabilityProxy.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./UpgradeabilityProxy.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "BaseAdminUpgradeabilityProxy"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/contracts/AaveToken/UpgradeabilityProxy.sol": {
+      "lastModificationDate": 1643885558008,
+      "contentHash": "a99b0ed72b8a3e38ba3ca0ca1652b16a",
+      "sourceName": "contracts/AaveToken/UpgradeabilityProxy.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./BaseUpgradeabilityProxy.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "UpgradeabilityProxy"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/contracts/AaveToken/Context.sol": {
+      "lastModificationDate": 1643885586364,
+      "contentHash": "cfd339c83e87a45ccdda4ddce33d1c8f",
+      "sourceName": "contracts/AaveToken/Context.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "/Users/igor/Documents/hard_deploy/contracts/UniswapRouter/MockUniswapV2Router02.sol": {
+      "lastModificationDate": 1644057770147,
+      "contentHash": "7035fc03eaa5a3e2aa8e6db01dca3585",
+      "sourceName": "contracts/UniswapRouter/MockUniswapV2Router02.sol",
+      "solcConfig": {
+        "version": "0.6.8",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.8"
+      ],
+      "artifacts": [
+        "IERC20",
+        "IERC20Detailed",
+        "IPriceOracleGetter",
+        "MockUniswapV2Router02",
+        "SafeMath"
+      ]
+    }
+  }
+}
