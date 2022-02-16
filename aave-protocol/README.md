@@ -1,11 +1,11 @@
-##1. install packages
+## 1. install packages
 ```
     npm install
 ```
 
-##1. change network settings in hardhat.config.ts
+## 1. change network settings in hardhat.config.ts
 
-##2. create env file
+## 2. create env file
 Create an enviroment file named `.env` and fill the next enviroment variables
 
 ```
@@ -21,11 +21,11 @@ TENDERLY_PROJECT=""
 TENDERLY_USERNAME=""
 ```
 
-##3. set deployed contracts.
+## 3. set deployed contracts.
 go to markets/aave/common.ts and markets/aave/index.ts, set contracts wich deployed in core_contracts project
 
 
-##4. contracts deployments
+## 4. contracts deployments
 ### waterfall deployment
 
 ```
