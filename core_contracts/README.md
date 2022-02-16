@@ -9,24 +9,24 @@
     change settings in /scripts/const.js
 
 ## STEPS
-###scripts names
+### scripts names
 
-####1. deploy tokens
+#### 1. deploy tokens
     deployLinkToken.js
 
-###2. deploy accessController
+### 2. deploy accessController
     deployBillingAccessController.js
     deployRequesterAccessController.js
 
 
-###3. deploy aggregators
+### 3. deploy aggregators
     deployAccessControlledOffchainAggregator.js (in code set link token, BillingAccessController, RequesterAccessController)
     deployAggregatorEthUsd.js (in code set link token, BillingAccessController, RequesterAccessController)
 
-###4. deploy chainlink,  uncomment aggregators
-    deployEACAggregatorProxy (in code set aggregator)
+### 4. deploy chainlink,  uncomment aggregators
+    deployEACAggregatorProxy.js (in code set aggregator)
 
-###5. deploy other contracts
+### 5. deploy other contracts
     deployReserveFactorTreasuryAddress.js
     deployTokenDistributor.js
     deployAaveFallbackOracle.js
@@ -35,7 +35,7 @@
 
 
 ## IMPORTANT
-##6. after aave-protocol deploy 
+## 6. after aave-protocol deploy 
     run stopPause.js (set LendingPoolConfiguratorAddress from aave-protocol)
 
 
