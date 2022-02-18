@@ -424,7 +424,7 @@ export const CommonsConfig: ICommonConfiguration = {
       ENJ: ZERO_ADDRESS,
       KNC: ZERO_ADDRESS,
       LINK: ZERO_ADDRESS,
-      MANA: ZERO_ADDRESS, //'0xaC80D78B30C40a9c27bf9F43dE411bef303ECcf7'
+      MANA: ZERO_ADDRESS,
       MKR: ZERO_ADDRESS,
       REN: ZERO_ADDRESS,
       SNX: ZERO_ADDRESS,
@@ -434,7 +434,7 @@ export const CommonsConfig: ICommonConfiguration = {
       USDC: ZERO_ADDRESS,
       USDT: ZERO_ADDRESS,
       WBTC: ZERO_ADDRESS,
-      YFI: ZERO_ADDRESS, //'0x38F2dd9088Db6F094f074aDe1a3300962C96C468'
+      YFI: ZERO_ADDRESS,
       ZRX: ZERO_ADDRESS,
       WWAT: '0x1470000F583E24873049a7C3F2a864a0641873C9', //chainlink wwat
       USD: '0xB4823B3f623d89464f879B44dB4e29469aD434ef',

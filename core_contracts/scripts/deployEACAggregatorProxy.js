@@ -7,15 +7,15 @@ const eacAggregatorProxy = require('../artifacts/contracts/chainLink/EACAggregat
 // set aggregators
 const aggs = {
     ['GOERLI']: {
-        MANA: { aggregator: '0x600E32Eef6a93f092ffCb010aE372689032dAbF8', },
-        YFI: { aggregator: '0x0a4614dc0C19C3C77414F7a88Bb2EFA4E09526a0', },
-        USD: { aggregator: '0x7037083dD156cf5C2EF4a768b9A8f42288A5b86a', }
+        // MANA: { aggregator: '0x600E32Eef6a93f092ffCb010aE372689032dAbF8', },
+        // YFI: { aggregator: '0x0a4614dc0C19C3C77414F7a88Bb2EFA4E09526a0', },
+        // USD: { aggregator: '0x7037083dD156cf5C2EF4a768b9A8f42288A5b86a', }
     },
     ['WATERFALL']: {
-        // USD: { aggregator: '0x2a980a1c74Efc0e12A47f9B1D587eE06cE5Dd891', },
-        // ALEX: { aggregator: '0xc691338629933adECD3A456683b00b75B095C6C8', },
-        // SERG: { aggregator: '0xd7f1507F912ddF098476632cb05c79ecbE8aDc19', },
-        // WWAT: { aggregator: '0x902560d8c6bd421fF70b6c069d43bED4C05509F2', },
+        USD: { aggregator: '0x2a980a1c74Efc0e12A47f9B1D587eE06cE5Dd891', },
+        ALEX: { aggregator: '0xc691338629933adECD3A456683b00b75B095C6C8', },
+        SERG: { aggregator: '0xd7f1507F912ddF098476632cb05c79ecbE8aDc19', },
+        WWAT: { aggregator: '0x902560d8c6bd421fF70b6c069d43bED4C05509F2', },
         NEHEMIA: { aggregator: '0x0f5AB95fe6D9348656c84417243FBFE0e4367BD0', },
         RICHARD: { aggregator: '0x0F60e7de5DD3693EeC7e62C1EF9fb26232332337', },
         LUKE: { aggregator: '0x1eb7E62a5abF34413b9b578002C65CEB0b65909b', },
