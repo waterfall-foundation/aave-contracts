@@ -7,12 +7,14 @@ const provider = getProvider(NETWORK)
 
 const web3 = new Web3(provider)
 
-// SET LendingPoolConfiguratorAddress
-const LendingPoolConfiguratorAddress = '0x064188e308e2b01702455a234D65d0Bd5aAb9345';
+// !!! IMPORTANT SET LendingPoolConfiguratorAddress
+const LendingPoolConfiguratorAddress = '';
 
 const go = async () => {
     try {
         const accounts = await web3.eth.getAccounts()
+
+        if (!LendingPoolConfiguratorAddress) console.log('error: set LendingPoolConfiguratorAddress !');
 
         const lpConf = new web3.eth.Contract(lendingPoolConfigurator.abi, LendingPoolConfiguratorAddress);
         await lpConf.methods.setPoolPause(false).send({from: accounts[0]}).then((result) => {

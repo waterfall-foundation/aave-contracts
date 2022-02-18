@@ -22,6 +22,18 @@ const requesterAcc = {
     ['GOERLI']: '0xC8Df5f7764cEe289AC04465533a622A932181b8B',
 }
 
+const toDeploy = {
+    ALEX: true,
+    SERG: true,
+    WWAT: true,
+    NEHEMIA: true,
+    RICHARD: true,
+    LUKE: true,
+    PEDRO: true,
+    ROBERT: true,
+    GEOFF: true,
+}
+
 const params = {
     ALEX: {
         maximumGasPrice: 1000,
@@ -160,17 +172,6 @@ const params = {
     }
 }
 
-const toDeploy = {
-    ALEX: false,
-    SERG: false,
-    WWAT: false,
-    NEHEMIA: true,
-    RICHARD: true,
-    LUKE: true,
-    PEDRO: true,
-    ROBERT: true,
-    GEOFF: true,
-}
 
 const deployAccessControlledOffchainAggregator = async () => {
     try {
