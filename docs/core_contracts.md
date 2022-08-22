@@ -1,69 +1,70 @@
 ###install
-открыть новую вкладку в терминале
+open a new tab in the terminal
 
 ```cd core_contracts```
 
 ```npm install```
 
-## изменить настройки сети, добавить аккаунт
-    поменять в файле hadrdhat.config.js
-    поменть в файле /scripts/const.js
+## change network settings, add an account
+    change in hadrdhat.config.js file
+    ## change in the file /scripts/const.js
 
-### запуск скрита
+### run the script
 ```npx hardhat run scripts/{название скрипта}.js --network waterfall```
 
 
-## ШАГИ
+## STEPS
 
 #### 1. deploy link token
     npx hardhat run scripts/deployLinkToken.js --network waterfall
-получить адрес ***LinkToken***
+get ***LinkToken*** address
 
 ### 2. deploy accessController
     npx hardhat run scripts/deployBillingAccessController.js --network waterfall
     npx hardhat run scripts/deployRequesterAccessController.js --network waterfall
 
-получить адрес контракта ***BillingAccessController***
-получить адрес контракта ***RequesterAccessController***
+get contract address ***BillingAccessController***
+get contract address ***RequesterAccessController***
 
 
 ### 3. deploy aggregators
-в scripts/deployAccessControlledOffchainAggregator.js установить полученные адреса ***LinkToken***, ***BillingAccessController***, ***RequesterAccessController***
+in scripts/deployAccessControlledOffchainAggregator.js set the received addresses ***LinkToken***, ***BillingAccessController***, ***RequesterAccessController***
 
-также в scripts/deployAggregatorEthUsd.js установить полученные адреса ***LinkToken***, ***BillingAccessController***, ***RequesterAccessController***
+also in scripts/deployAggregatorEthUsd.js set the received addresses ***LinkToken***, ***BillingAccessController***, ***RequesterAccessController***
 
     npx hardhat run scripts/deployAccessControlledOffchainAggregator.js --network waterfall
 
-получить адреса агрегаторов  
+to get the addresses of the aggregators  
 
     npx hardhat run scripts/deployAggregatorEthUsd.js --network waterfall
 
-получить адрес usd агрегатора
+get the usd aggregator address
+
 
 ### 4. deploy chainlink
-в script/deployEACAggregatorProxy.js в обьекте агрегаторов для сети waterfall, задать полученые адреса агрегаторов
+in script/deployEACAggregatorProxy.js in the aggregator object for the waterfall network, set the obtained aggregator addresses
 
-    npx hardhat run scripts/deployEACAggregatorProxy.js --network waterfall
+    npx hardhat run scripts/deployEACAggregatorProxy.js --networkwaterfall
  
-получить адреса chainlink контрактов
+get the addresses of the chainlink contracts
 
 ### 5. deploy other contracts
-задеплоить дополнительыне контракты
+deploy other contracts
 
     npx hardhat run scripts/deployReserveFactorTreasuryAddress.js --network waterfall
-получить адрес ReserveFactorTreasury контракта
+get the address of the ReserveFactorTreasury contract
 
     npx hardhat run scripts/deployTokenDistributor.js --network waterfall
-получить адрес TokenDistributor контракта
+get the address of the TokenDistributor contract
 
     npx hardhat run scripts/deployAaveFallbackOracle.js --network waterfall
-получить адрес AaveFallbackOracle контракта
+Get the address of the AaveFallbackOracle contract
 
 -------
-### В резульате, должны быть адресса контрактов:
-следующие контракты будут использоватся в aave-protocol
+### The result should be the contract addresses:
+the following contracts will be used in the aave-protocol
 
-### 1) chainlink aggregators для:
+### 1) chainlink aggregators for:
 
 ***USD***
 
@@ -94,10 +95,11 @@
 -------
 
 
-## 6. после деплоя конрактов с aave-protocol  выполнить
+## 6. After deploating the contracts with aave-protocol execute
 
-в scripts/stopPause.js задать полученый адрес LendingPoolConfiguratorAddress, после выполнить
+in scripts/stopPause.js set the received LendingPoolConfiguratorAddress, then execute
 
      npx hardhat run scripts/stopPause.js --network waterfall
+
 
 
